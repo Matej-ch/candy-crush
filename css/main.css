@@ -89,7 +89,8 @@ hr {
 }
 
 .container .score {
-  width: 560px;
+  width: 100%;
+  max-width: 560px;
   font-size: 1.5rem;
 
 
@@ -107,5 +108,30 @@ hr {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
 }
 
+@media only screen and (max-width: 768px) {
+  .grid {
+    width: 400px;
+    height: 400px;
+  }
+
+  .grid div {
+    width: 50px;
+    height: 50px;
+    background-size: 45px 45px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .grid {
+    width: 300px;
+    height: 300px;
+  }
+
+  .grid div {
+    width: 37px;
+    height: 37px;
+    background-size: 32px 32px;
+  }
+}
 
 
