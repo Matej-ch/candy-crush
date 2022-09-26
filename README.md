@@ -1,1 +1,3 @@
-# candy-crush clone WIP
+# candy-crush clone 
+
+### basically finished
